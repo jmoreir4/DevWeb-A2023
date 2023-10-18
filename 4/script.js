@@ -35,6 +35,8 @@ monLien.classList.add('couleurRouge')
 
 // (iii) ajouter cet élément à la page
 document.body.appendChild(monLien);
+// document.body.color.monLien ="green";
+document.body.style.backgroundColor ="green";
 // notez que dans ce cas, il s'agit de la variable monLien, et non d'une chaîne de caractère : il n'y a donc pas de guillemets
 
 /* AMPLIFICATION DE VOS CONNAISSANCES
@@ -61,7 +63,23 @@ Ajoutez à la page index.html, grâce au Javascript
 7. liez cette classe au paragraphe sur la COVID
 8. ajoutez une liste d'éléments à la page (une balise "ul" contenant 2 balises "li" contenant du texte)
 
+
 */
+
+//EXERCICE APPLICATION DE VOS CONNAISSANCES I
+
+//0
+let monImage = document.createElement('a');
+//1
+monImage.setAttribute("href","https://youtu.be/f8FAnbz_BVA?si=bUIHfFGJPc14Q7_S");
+//2
+let monMeme = document.createElement('img')
+monMeme.setAttribute("href","https://static.fandomspot.com/images/05/6870/005-pokemon-meme.jpg")
+
+monImage.innerText = "\nCeci n'est pas un lien.\nMais deux liens";
+document.body.appendChild(monImage);
+//document.body.br = "https://static.fandomspot.com/images/05/6870/005-pokemon-meme.jpg";
+
 
 /* APPLICATION DE VOS CONNAISSANCES II
 
